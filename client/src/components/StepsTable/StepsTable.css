@@ -1,0 +1,118 @@
+.selon .StepsTableContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.formContainer input[type=text],
+.formContainer input[type=date],
+.formContainer select {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 250px;
+}
+
+.tableContainer {
+  width: 100%;
+}
+
+.tableContainer .loadingMessage {
+  color: blue;
+}
+
+.tableContainer .errorMessage {
+  color: red;
+}
+
+.tableContainer .MuiDataGrid-root {
+  height: 400px;
+  width: 100%;
+}
+
+.tableContainer .addTaskForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.tableContainer .addTaskForm button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.tableContainer .addTaskForm button:disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
+
+.red-status {
+  color: red;
+}
+
+.blue-status {
+  color: blue;
+}
+
+.green-status {
+  color: green;
+}
+
+.low-priority {
+  font-weight: normal;
+  color: rgb(231, 228, 42);
+}
+
+.medium-priority {
+  font-weight: bold;
+  color: rgb(25, 50, 196); 
+}
+
+.high-priority {
+  font-weight: bold;
+  color: red; /* Example color for high priority */
+}
+.addTaskSection {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.addTaskSection h2 {
+  margin-bottom: 10px;
+}
+
+.addTaskSection input[type="text"],
+.addTaskSection input[type="date"],
+.addTaskSection select {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 250px;
+}
+
+.addTaskSection button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addTaskSection button:disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
+

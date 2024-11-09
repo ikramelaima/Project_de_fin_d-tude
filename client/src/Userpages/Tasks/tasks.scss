@@ -1,0 +1,50 @@
+.tasks {
+  display: flex;
+  width: 100%;
+
+  .tasksC {
+    flex: 6;
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+
+      th, td {
+        border: 1px solid #dddddd;
+        padding: 12px;
+        text-align: left;
+        font-size: 14px;
+      }
+
+      th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      tr:hover {
+        background-color: #ddd;
+      }
+
+      select {
+        width: 100%;
+        padding: 8px;
+      }
+    }
+  }
+
+  .elevee {
+    color: red;
+  }
+
+  .moyenne {
+    color: orange;
+  }
+
+  .faible {
+    color: blue;
+  }
+}

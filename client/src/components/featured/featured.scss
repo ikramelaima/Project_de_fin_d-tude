@@ -1,0 +1,113 @@
+.featured {
+  width: 100%; /* Assurez-vous que la section featured occupe toute la largeur */
+  padding: 20px; /* Espace intérieur */
+  background-color: #f9f9f9; /* Couleur de fond */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .project-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 10px;
+    }
+
+    .project-item {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      padding: 5px 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #eaeaea;
+      }
+
+      .icon {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .featuredProject {
+      width: calc(50% - 10px); /* Pour afficher deux projets par ligne avec un espace de 20px entre eux */
+      padding: 20px;
+      border-radius: 5px;
+      background-color: #ffffff;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s ease;
+
+      &:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .featuredChart {
+        margin-bottom: 20px;
+      }
+
+      .title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .desc {
+        color: #666666;
+        margin-bottom: 15px;
+      }
+
+      .summary {
+        display: flex;
+        justify-content: space-between;
+
+        .item {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          font-size: 14px;
+
+          .itemTitle {
+            color: #999999;
+            margin-bottom: 5px;
+          }
+
+          .itemResult {
+            display: flex;
+            align-items: center;
+
+            .resultAmount {
+              margin-left: 5px;
+            }
+          }
+
+          .positive {
+            color: green;
+          }
+
+          .negative {
+            color: red;
+          }
+        }
+      }
+    }
+  }
+}

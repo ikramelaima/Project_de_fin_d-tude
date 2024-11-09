@@ -1,0 +1,7 @@
+.set {
+  display: flex;
+  width: 100%;
+}
+.set .setContainer {
+  flex: 6;
+}/*# sourceMappingURL=setting.css.map */

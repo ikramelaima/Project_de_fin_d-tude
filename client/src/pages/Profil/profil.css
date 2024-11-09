@@ -1,0 +1,7 @@
+.profil {
+  display: flex;
+  width: 100%;
+}
+.profil .profilContainer {
+  flex: 6;
+}/*# sourceMappingURL=profil.css.map */

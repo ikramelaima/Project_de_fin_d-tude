@@ -1,0 +1,60 @@
+// StepsTable.scss
+
+.StepsTableContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.formContainer input[type="text"],
+.formContainer input[type="date"],
+.formContainer select {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 250px;
+}
+
+.tableContainer {
+  width: 100%;
+}
+
+.tableContainer .loadingMessage {
+  color: blue;
+}
+
+.tableContainer .errorMessage {
+  color: red;
+}
+
+.tableContainer .MuiDataGrid-root {
+  height: 400px;
+  width: 100%;
+}
+
+.tableContainer .addTaskForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.tableContainer .addTaskForm button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.tableContainer .addTaskForm button:disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+}

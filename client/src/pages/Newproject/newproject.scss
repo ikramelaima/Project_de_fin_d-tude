@@ -1,0 +1,101 @@
+.project {
+  display: flex;
+  width: 100%;
+}
+
+.projectContainer {
+  flex: 6;
+  padding: 20px; /* Add padding for spacing */
+}
+.datatableTitle{
+  width: 100%;
+  font-size: 24px;
+  color: gray;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;}
+
+.form-container {
+  width: 100%; /* Use 100% width of the container */
+  max-width: 400px; /* Set a maximum width for the form */
+  margin: 0 auto; /* Center the form horizontally */
+  background-color: #fff; /* Set background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  border-radius: 5px;
+  padding: 20px;
+
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+
+    &:hover {
+      background-color: #45a049;
+    }
+  }
+
+  .progress-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .step {
+      flex: 1;
+      height: 10px;
+      background-color: #ddd;
+      margin-right: 5px;
+
+      &.active {
+        background-color: #4caf50;
+      }
+    }
+  }
+
+  .nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    display: block;
+  }
+}
+
+body {
+  position: relative;
+}
+
+/* Center the form on the page */
+.form-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hitbox {
+  transform: scale(1.5);
+}

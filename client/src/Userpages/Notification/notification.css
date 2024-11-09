@@ -1,0 +1,7 @@
+.tasks {
+  display: flex;
+  width: 100%;
+}
+.tasks .tasksC {
+  flex: 6;
+}/*# sourceMappingURL=notification.css.map */

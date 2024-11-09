@@ -1,0 +1,7 @@
+.mess {
+  display: flex;
+  width: 100%;
+}
+.mess .messContainer {
+  flex: 6;
+}/*# sourceMappingURL=messagerie.css.map */

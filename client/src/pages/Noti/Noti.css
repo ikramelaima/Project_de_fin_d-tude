@@ -1,0 +1,7 @@
+.noti {
+  display: flex;
+  width: 100%;
+}
+.noti .notiContainer {
+  flex: 6;
+}/*# sourceMappingURL=Noti.css.map */

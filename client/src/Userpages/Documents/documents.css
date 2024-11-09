@@ -1,0 +1,7 @@
+User .tasks {
+  display: flex;
+  width: 100%;
+}
+User .tasks .tasksC {
+  flex: 6;
+}/*# sourceMappingURL=documents.css.map */

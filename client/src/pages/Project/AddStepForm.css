@@ -1,0 +1,49 @@
+.add-step-card {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.add-step-card h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.add-step-card form {
+  display: flex;
+  flex-direction: column;
+}
+.add-step-card form .form-group {
+  margin-bottom: 20px;
+}
+.add-step-card form .form-group label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
+.add-step-card form .form-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+.add-step-card form .form-group select:focus {
+  border-color: #007bff;
+}
+.add-step-card form button[type=submit] {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.add-step-card form button[type=submit]:hover {
+  background-color: #0056b3;
+}/*# sourceMappingURL=AddStepForm.css.map */

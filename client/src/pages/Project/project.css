@@ -1,0 +1,73 @@
+@charset "UTF-8";
+.projectHeaderContainer {
+  text-align: center; 
+  border: 2px solid #007bff;
+  border-radius: 10px; 
+  padding: 20px; 
+  margin-bottom: 20px; /* Marge inférieure */
+}
+
+.projectHeader {
+  margin: 0; /* Réinitialiser les marges par défaut */
+}
+
+.projectHeader h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.projectDescription {
+  font-size: 16px;
+  color: #555;
+}
+
+.addStepButton {
+  margin-bottom: 20px;
+  background-color: #007bff; /* Couleur du bouton */
+  color: #fff; /* Couleur du texte du bouton */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.addStepButton:hover {
+  background-color: #0056b3; /* Couleur du bouton au survol */
+}
+
+.stepsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.stepCard {
+  background-color: #fff; /* Couleur de fond de la carte */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stepTitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333; /* Couleur du titre de la carte */
+}
+
+.stepDescription {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #555; /* Couleur de la description de la carte */
+}
+
+.addStepForm {
+  margin-top: 20px;
+}
+
+.addStepForm input,
+.addStepForm select,
+.addStepForm button {
+  margin-bottom: 10px;
+}/*# sourceMappingURL=project.css.map */
